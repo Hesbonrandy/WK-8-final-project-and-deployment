@@ -61,25 +61,22 @@ Your site is live at:
 https://yourusername.github.io/monran-coffee-house/
 
 🧩 Project Structure
-monran-coffee-house/
-├── index.html
-├── about.html
-├── menu.html
-├── events.html
-├── contact.html
-├── menu-monran-kes.html     ← Printable PDF menu (Save as PDF)
-├── css/
-│   └── style.css            ← All styles (responsive, animations, layout)
-├── js/
-│   └── main.js              ← Interactivity (filters, forms, scroll)
-├── images/
-│   ├── monran-logo.png      ← Your logo
-│   ├── hero-bg.jpg
-│   ├── drinks/
-│   ├── food/
-│   └── space/               ← Café interior photos
-└── README.md
+---
+/monran-coffee-house
+  ├── index.html
+  ├── about.html
+  ├── menu.html
+  ├── events.html
+  ├── contact.html
+  ├── menu-monran-kes.html     ← Printable PDF menu (Save as PDF)
+  ├── css/
+  │   └── style.css            ← All styles (responsive, animations, layout)
+  ├── js/
+  │   └── main.js              ← Interactivity (filters, forms, scroll)
+  ├── images/
+---
 
+---
 
 🚀 Deployment Ready
 ✅ Valid HTML & CSS
