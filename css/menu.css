@@ -1,0 +1,122 @@
+/* === PRINT / PDF MENU STYLES — KINOO COFFEE NAIROBI === */
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background: white;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    border-bottom: 3px double #6F4E37;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+.logo {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #6F4E37;
+    margin-bottom: 0.5rem;
+}
+
+.tagline {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+.address {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+h2 {
+    color: #6F4E37;
+    border-left: 4px solid #E6C588;
+    padding-left: 1rem;
+    margin: 2rem 0 1rem;
+}
+
+.menu-section {
+    margin-bottom: 2rem;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.8rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px dashed #eee;
+}
+
+.item-name {
+    font-weight: 600;
+}
+
+.item-desc {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 0.2rem;
+}
+
+.price {
+    font-weight: 700;
+    color: #6F4E37;
+    white-space: nowrap;
+    padding-left: 1rem;
+}
+
+.tags {
+    font-size: 0.9rem;
+    color: #888;
+    margin-top: 0.2rem;
+}
+
+footer {
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid #ddd;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* Hide action buttons when printing */
+@media print {
+    body {
+        padding: 1cm;
+    }
+    .no-print {
+        display: none;
+    }
+}
+
+/* Style buttons only on screen */
+@media screen {
+    .actions {
+        text-align: center;
+        margin: 2rem 0;
+    }
+
+    .btn {
+        background: #6F4E37;
+        color: white;
+        padding: 0.8rem 1.5rem;
+        text-decoration: none;
+        border-radius: 50px;
+        font-weight: 600;
+        display: inline-block;
+        margin: 0.5rem;
+        cursor: pointer;
+        border: none;
+    }
+
+    .btn:hover {
+        background: #5a3d2b;
+    }
+}
