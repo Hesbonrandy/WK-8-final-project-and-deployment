@@ -65,8 +65,7 @@ All menu items and events are localized in **Kenyan Shillings (KSh)**.
 ### Deploy (GitHub Pages)
 1. Push to your GitHub repo  
 2. Go to **Settings → Pages → Branch: main**  
-3. Your site will be live at:
-
+3. Your site will be live at: https://yourusername.github.io/monran-coffee-house/
 ---
 
 ## 📂 Project Structure
