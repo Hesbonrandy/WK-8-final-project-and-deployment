@@ -60,7 +60,21 @@ Go to Settings → Pages → Branch: main
 Your site is live at:
 https://yourusername.github.io/monran-coffee-house/
 
-🧩 Project Structure
+## 📁 Project Structure
+
+```
+/project
+  ├── index.html        # Landing page
+  ├── css/
+  │     └── style.css   # Main stylesheet
+  ├── js/
+  │     └── main.js     # Carousel & lightbox logic
+  └── images/           # Placeholder images
+```
+
+---
+
+📁 Project Structure
 ---
 /monran-coffee-house
   ├── index.html
