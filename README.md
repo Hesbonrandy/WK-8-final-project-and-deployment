@@ -60,10 +60,9 @@ Go to Settings → Pages → Branch: main
 Your site is live at:
 https://yourusername.github.io/monran-coffee-house/
 
-
 ## 📂 Project Structure
 
-```text
+```
 /monran-coffee-house
   ├── [index.html](./index.html)
   ├── [about.html](./about.html)
@@ -76,7 +75,7 @@ https://yourusername.github.io/monran-coffee-house/
   ├── js/
   │   └── [main.js](./js/main.js)                      ← Interactivity (filters, forms, scroll)
   ├── [images/](./images)                              ← All images used in the site
-
+```
 
 🚀 Deployment Ready
 ✅ Valid HTML & CSS
@@ -88,3 +87,6 @@ https://yourusername.github.io/monran-coffee-house/
 
 📜 License
 MIT License — Free to use for personal or commercial projects.
+
+
+
