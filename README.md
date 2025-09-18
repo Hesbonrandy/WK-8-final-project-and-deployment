@@ -63,7 +63,7 @@ https://yourusername.github.io/monran-coffee-house/
 ## 📁 Project Structure
 
 ```
-/project
+/monran
   ├── index.html        # Landing page
   ├── css/
   │     └── style.css   # Main stylesheet
@@ -74,7 +74,7 @@ https://yourusername.github.io/monran-coffee-house/
 
 ---
 
-📁 Project Structure
+## 📁 Project Structure
 ---
 /monran-coffee-house
   ├── index.html
