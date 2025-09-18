@@ -60,37 +60,23 @@ Go to Settings → Pages → Branch: main
 Your site is live at:
 https://yourusername.github.io/monran-coffee-house/
 
-## 📁 Project Structure
 
-```
-/monran
-  ├── index.html        # Landing page
-  ├── css/
-  │     └── style.css   # Main stylesheet
-  ├── js/
-  │     └── main.js     # Carousel & lightbox logic
-  └── images/           # Placeholder images
-```
+## 📂 Project Structure
 
----
-
-## 📁 Project Structure
----
+```text
 /monran-coffee-house
-  ├── index.html
-  ├── about.html
-  ├── menu.html
-  ├── events.html
-  ├── contact.html
-  ├── menu-monran-kes.html     ← Printable PDF menu (Save as PDF)
+  ├── [index.html](./index.html)
+  ├── [about.html](./about.html)
+  ├── [menu.html](./menu.html)
+  ├── [events.html](./events.html)
+  ├── [contact.html](./contact.html)
+  ├── [menu-monran-kes.html](./menu-monran-kes.html)   ← Printable PDF menu (Save as PDF)
   ├── css/
-  │   └── style.css            ← All styles (responsive, animations, layout)
+  │   └── [style.css](./css/style.css)                 ← All styles (responsive, animations, layout)
   ├── js/
-  │   └── main.js              ← Interactivity (filters, forms, scroll)
-  ├── images/
----
+  │   └── [main.js](./js/main.js)                      ← Interactivity (filters, forms, scroll)
+  ├── [images/](./images)                              ← All images used in the site
 
----
 
 🚀 Deployment Ready
 ✅ Valid HTML & CSS
